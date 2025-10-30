@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Game_local.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\ai\\Monster_NetworkGuardian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\ai\\Monster_NetworkGuardian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Monster_NetworkGuardian.cpp",
+              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\ai\\Monster_NetworkGuardian.cpp",
+              "RelativeDocumentMoniker": "game\\ai\\Monster_NetworkGuardian.cpp",
+              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\ai\\Monster_NetworkGuardian.cpp",
+              "RelativeToolTip": "game\\ai\\Monster_NetworkGuardian.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T21:09:14.079Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "game\\Game_local.cpp",
               "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Game_local.cpp",
               "RelativeToolTip": "game\\Game_local.cpp",
-              "ViewState": "AgIAAGUNAAAAAAAAAAAcwJwNAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAIwNAAAAAAAAAAAAAKcNAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-30T00:12:50.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SysCmds.cpp",
               "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\gamesys\\SysCmds.cpp",
               "RelativeDocumentMoniker": "game\\gamesys\\SysCmds.cpp",

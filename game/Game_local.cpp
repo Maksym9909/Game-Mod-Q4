@@ -3470,25 +3470,66 @@ idGameLocal::RunFrame
 
 	static int da_lastWave = 0;
 	const int da_currentWave = g_WaveCurrent.GetInteger();
-	if ( da_currentWave != da_lastWave ) {
+	if (da_currentWave != da_lastWave) {
 		da_lastWave = da_currentWave;
 
 		idPlayer* p = gameLocal.GetLocalPlayer();
 		if (p) {
 			idVec3 pos = p->GetPhysics()->GetOrigin();
-			
-			pos.x = pos.x + 200;
-			pos.z = pos.z + 50;
 
-			idDict a;
+			int wave = da_currentWave;
+			bool bosswave = (wave == 3 || wave == 7 || wave == 10);
 
-			a.Set("classname", "monster_grunt");
-			a.SetVector("origin", pos);
+			idVec3 spot[10] =
+			{
+				idVec3(300,0,0), idVec3(-300,0,0), idVec3(0,300,0), idVec3(0,-300,0),
+				idVec3(212,212,0), idVec3(-212,212,0), idVec3(212,-212,0), idVec3(-212,-212,0),
+				idVec3(0, 0, 300), idVec3(0, 0, -300)
+			};
 
-			idEntity *m = NULL;
-			gameLocal.SpawnEntityDef(a, &m);
+			int total = wave;
+			if (bosswave)
+			{
+				total = total - 1;
+			}
+
+			int i = 0;
+			while (i < total)
+			{
+				idVec3 spawnPos = pos + spot[i % 10];
+
+				idDict a;
+
+				a.Set("classname", "monster_grunt");
+				a.SetVector("origin", spawnPos);
+
+				gameLocal.SpawnEntityDef(a);
+
+				i = i + 1;
+			}
+				if (wave == 3)
+				{
+					idVec3 bossPos = pos + idVec3(400, 0, 50);
+					idDict b;
+					b.Set("classname", "monster_berserker");
+					b.SetVector("origin", bossPos);
+					gameLocal.SpawnEntityDef(b);
+				} else if (wave == 7)
+				{
+					idVec3 bossPos = pos + idVec3(400, 0, 50);
+					idDict b;
+					b.Set("classname", "monster_stream_protector");
+					b.SetVector("origin", bossPos);
+					gameLocal.SpawnEntityDef(b);
+				} else if (wave == 10)
+				{
+					idVec3 bossPos = pos + idVec3(400, 0, 50);
+					idDict b;
+					b.Set("classname", "monster_network_guardian");
+					b.SetVector("origin", bossPos);
+					gameLocal.SpawnEntityDef(b);
+				}		
 		}
-
 	}
 
 	editors = activeEditors;
