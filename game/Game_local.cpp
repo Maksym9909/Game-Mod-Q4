@@ -50,6 +50,9 @@ idCVar com_forceGenericSIMD( "com_forceGenericSIMD", "0", CVAR_BOOL|CVAR_SYSTEM,
 
 idRenderWorld *				gameRenderWorld = NULL;		// all drawing is done to this world
 
+// Wave count
+idCVar g_WaveCurrent("g_waveCurrent", "0", CVAR_INTEGER | CVAR_GAME | CVAR_NOCHEAT, "current wave number",0,999);
+
 static gameExport_t			gameExport;
 
 // global animation lib
