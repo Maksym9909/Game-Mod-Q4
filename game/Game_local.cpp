@@ -3468,6 +3468,12 @@ idGameLocal::RunFrame
 	idPlayer	*player;
 	const renderView_t *view;
 
+	static int da_lastWave = 0;
+	const int da_currentWave = g_WaveCurrent.GetInteger();
+	if ( da_currentWave != da_lastWave ) {
+		da_lastWave = da_currentWave;
+	}
+
 	editors = activeEditors;
 	isLastPredictFrame = lastCatchupFrame;
 
