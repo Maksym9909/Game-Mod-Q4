@@ -3472,6 +3472,23 @@ idGameLocal::RunFrame
 	const int da_currentWave = g_WaveCurrent.GetInteger();
 	if ( da_currentWave != da_lastWave ) {
 		da_lastWave = da_currentWave;
+
+		idPlayer* p = gameLocal.GetLocalPlayer();
+		if (p) {
+			idVec3 pos = p->GetPhysics()->GetOrigin();
+			
+			pos.x = pos.x + 200;
+			pos.z = pos.z + 50;
+
+			idDict a;
+
+			a.Set("classname", "monster_grunt");
+			a.SetVector("origin", pos);
+
+			idEntity *m = NULL;
+			gameLocal.SpawnEntityDef(a, &m);
+		}
+
 	}
 
 	editors = activeEditors;
