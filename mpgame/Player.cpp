@@ -1684,7 +1684,7 @@ void idPlayer::Init( void ) {
 	}
 
 	// read player lean properties
-	spawnArgs.GetFloat( "lean_maxSpeed", "500", leanMaxSpeed );
+	spawnArgs.GetFloat( "lean_maxSpeed", "1000", leanMaxSpeed );
 	spawnArgs.GetFloat( "lean_blendRatio", "0.9", leanBlendRatio );
 	spawnArgs.GetFloat( "lean_maxLateralAngle", "30", leanMaxLateralAngle );
 	spawnArgs.GetFloat( "lean_maxForwardAngle", "50", leanMaxForwardAngle );

@@ -292,6 +292,12 @@ public:
 	int						godmodeDamage;
 	bool					undying;
 
+	bool da_perkfast;
+	bool da_perklessdamage;
+	bool da_perksecondchance;
+	bool da_perkbonsusammo;
+	bool da_perkloadtime;
+
 	bool					spawnAnglesSet;		// on first usercmd, we must set deltaAngles
 	idAngles				spawnAngles;
 	idAngles				viewAngles;			// player view angles

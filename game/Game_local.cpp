@@ -412,6 +412,34 @@ extern idHashTable<rvViseme> *visemeTable100;
 extern idHashTable<rvViseme> *visemeTable66;
 extern idHashTable<rvViseme> *visemeTable33;
 #ifdef RV_UNIFIED_ALLOCATOR
+
+static void Cmd_Perk_f(const idCmdArgs& args)
+{
+	idPlayer* player = gameLocal.GetLocalPlayer();
+
+	const char* name = args.Argv(1);
+
+	if (idStr::Icmp(name, "secondchance") == 0)
+	{
+		player->da_perksecondchance = true;
+		player->health += 30;
+		common->Printf("Granted second chance perk\n");
+	}
+	else if (idStr::Icmp(name, "bonusammo") == 0)
+	{
+		common->Printf("Granted bonus ammo perk\n");
+	}
+	else if (idStr::Icmp(name, "fast") == 0)
+	{
+		player->da_perkfast = true;
+		cvarSystem->SetCVarFloat("pm_walkspeed", 800.0f);
+		common->Printf("Perk gained: FAST (+ speed)\n");
+	}
+	else
+	{
+		common -> Printf("perk add <perkname>\nAvailable perks: secondchance, bonusammo, fast\n");
+	}
+}
 void idGameLocal::Init( void *(*allocator)(size_t size), void (*deallocator)( void *ptr ), size_t (*msize)(void *ptr) ) {
 #else
 void idGameLocal::Init( void ) {
@@ -422,9 +450,13 @@ void idGameLocal::Init( void ) {
 
 #ifndef GAME_DLL
 
+
 	TestGameAPI();
 
+
 #else
+
+
 
 	mHz = common->GetUserCmdHz();
 	msec = common->GetUserCmdMSec();
@@ -510,8 +542,10 @@ void idGameLocal::Init( void ) {
 #endif  // RV_BINARYDECLS
 // RAVEN END
 
+
 	cmdSystem->AddCommand( "listModelDefs", idListDecls_f<DECL_MODELDEF>, CMD_FL_SYSTEM|CMD_FL_GAME, "lists model defs" );
 	cmdSystem->AddCommand( "printModelDefs", idPrintDecls_f<DECL_MODELDEF>, CMD_FL_SYSTEM|CMD_FL_GAME, "prints a model def", idCmdSystem::ArgCompletion_Decl<DECL_MODELDEF> );
+	cmdSystem ->AddCommand("perk_add", Cmd_Perk_f, CMD_FL_SYSTEM, "perk_add <secondchance|bonusammo|fast>");
 
 	Clear();
 

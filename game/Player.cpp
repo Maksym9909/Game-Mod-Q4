@@ -1860,6 +1860,12 @@ void idPlayer::Spawn( void ) {
 			}
 		}
 
+		da_perkfast = false;
+		da_perkbonsusammo = false;
+		da_perklessdamage = false;	
+		da_perkloadtime = false;
+		da_perksecondchance = false;
+
 		if ( hud ) {
 			hud->Activate( true, gameLocal.time );
 		}
