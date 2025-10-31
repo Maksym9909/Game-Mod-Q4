@@ -92,7 +92,8 @@ rvWeaponBlaster::UpdateAttack
 ================
 */
 bool rvWeaponBlaster::UpdateAttack ( void ) {
-	// Clear fire forced
+	// Clear 
+	// forced
 	if ( fireForced ) {
 		if ( !wsfl.attack ) {
 			fireForced = false;
@@ -427,7 +428,7 @@ stateResult_t rvWeaponBlaster::State_Fire ( const stateParms_t& parms ) {
 
 	
 			if ( gameLocal.time - fireHeldTime > chargeTime ) {	
-				Attack ( true, 1, spread, 0, 1.0f );
+				Attack ( true, 5, spread*10, 0, 1.0f );
 				PlayEffect ( "fx_chargedflash", barrelJointView, false );
 				PlayAnim( ANIMCHANNEL_ALL, "chargedfire", parms.blendFrames );
 			} else {

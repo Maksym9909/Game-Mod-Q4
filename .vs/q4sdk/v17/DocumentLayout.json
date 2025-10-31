@@ -3,40 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Game_local.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Game_local.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2EF9123-B7C3-4F2F-A351-747B595BB534}|mpgame.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\mpgame\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F2EF9123-B7C3-4F2F-A351-747B595BB534}|mpgame.vcxproj|solutionrelative:mpgame\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player_States.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Player_States.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\ai\\Monster_NetworkGuardian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\ai\\Monster_NetworkGuardian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\MPGAME\\ENTITY.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:MPGAME\\ENTITY.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\weapon\\WeaponBlaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponBlaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,121 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player.h",
-              "RelativeDocumentMoniker": "game\\Player.h",
-              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player.h",
-              "RelativeToolTip": "game\\Player.h",
-              "ViewState": "AgIAACEEAAAAAAAAAAAEwEUEAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-30T23:09:05.046Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Entity.h",
-              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\mpgame\\Entity.h",
-              "RelativeDocumentMoniker": "mpgame\\Entity.h",
-              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\mpgame\\Entity.h",
-              "RelativeToolTip": "mpgame\\Entity.h",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAEwHwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-31T00:39:18.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Entity.h",
-              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Entity.h",
-              "RelativeDocumentMoniker": "game\\Entity.h",
-              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Entity.h",
-              "RelativeToolTip": "game\\Entity.h",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAEwHwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-31T00:39:14.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\mpgame\\Player.cpp",
-              "RelativeDocumentMoniker": "mpgame\\Player.cpp",
-              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\mpgame\\Player.cpp",
-              "RelativeToolTip": "mpgame\\Player.cpp",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAEwEAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-31T00:37:44.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player.cpp",
-              "RelativeDocumentMoniker": "game\\Player.cpp",
-              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player.cpp",
-              "RelativeToolTip": "game\\Player.cpp",
-              "ViewState": "AgIAAB8BAAAAAAAAAAAEwFwBAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-30T23:17:41.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player_States.cpp",
-              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player_States.cpp",
-              "RelativeDocumentMoniker": "game\\Player_States.cpp",
-              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Player_States.cpp",
-              "RelativeToolTip": "game\\Player_States.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-30T23:16:18.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Monster_NetworkGuardian.cpp",
-              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\ai\\Monster_NetworkGuardian.cpp",
-              "RelativeDocumentMoniker": "game\\ai\\Monster_NetworkGuardian.cpp",
-              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\ai\\Monster_NetworkGuardian.cpp",
-              "RelativeToolTip": "game\\ai\\Monster_NetworkGuardian.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-30T21:09:14.079Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Game_local.cpp",
-              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Game_local.cpp",
-              "RelativeDocumentMoniker": "game\\Game_local.cpp",
-              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\Game_local.cpp",
-              "RelativeToolTip": "game\\Game_local.cpp",
-              "ViewState": "AgIAAJUBAAAAAAAAAAAEwKwBAAACAAAAAAAAAA==",
+              "Title": "WeaponBlaster.cpp",
+              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\weapon\\WeaponBlaster.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponBlaster.cpp",
+              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\weapon\\WeaponBlaster.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponBlaster.cpp",
+              "ViewState": "AgIAAHABAAAAAAAAAAAMwK4BAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-30T00:12:50.243Z",
+              "WhenOpened": "2025-10-31T04:42:47.688Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SysCmds.cpp",
-              "DocumentMoniker": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\gamesys\\SysCmds.cpp",
-              "RelativeDocumentMoniker": "game\\gamesys\\SysCmds.cpp",
-              "ToolTip": "C:\\Users\\msoro\\OneDrive\\Documents\\GitHub\\Game-Mod-Q4\\game\\gamesys\\SysCmds.cpp",
-              "RelativeToolTip": "game\\gamesys\\SysCmds.cpp",
-              "ViewState": "AgIAACcCAAAAAAAAAAAYwEsCAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-23T23:05:48.157Z"
             }
           ]
         }

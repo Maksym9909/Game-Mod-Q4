@@ -292,6 +292,7 @@ public:
 	int						godmodeDamage;
 	bool					undying;
 
+	bool                    bleedActive;
 	bool da_perkfast;
 	bool da_perklessdamage;
 	bool da_perksecondchance;

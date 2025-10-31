@@ -1102,6 +1102,7 @@ idPlayer::idPlayer() {
 
 	weapon					= NULL;
 
+	bleedActive				= false;
 	hud						= NULL;
 	mphud					= NULL;
 	objectiveSystem			= NULL;
