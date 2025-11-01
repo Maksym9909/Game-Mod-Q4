@@ -3527,6 +3527,13 @@ idGameLocal::RunFrame
 				total = total - 1;
 			}
 
+			
+			if (idPlayer* p = gameLocal.GetLocalPlayer()) {
+				if ( p -> hud) {
+					p->hud->SetStateInt("da_wave", wave);
+					p->hud->HandleNamedEvent("updateWave");
+				}
+
 			int i = 0;
 			while (i < total)
 			{
